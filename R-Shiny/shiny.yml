@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: r-shiny
+  name: r-shiny
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: r-shiny
+  template:
+    metadata:
+      labels:
+        app: r-shiny
+      name: r-shiny
+    spec:
+      containers:
+      - image: markedmondson1234/shiny-server
+        imagePullPolicy: Always
+        name: r-shiny
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
