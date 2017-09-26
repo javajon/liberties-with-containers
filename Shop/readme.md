@@ -10,21 +10,29 @@ includes microservice code along with Redis and a MongoDB.
 1. Install 
    a. Kubernetes (Minikube is a good start)
    b. KubeCtl
-   c. Set your environment to the Minikube context with `eval $(minikube docker-env)`
+   c. Set your environment to the Minikube context with
+   
+   ```eval $(minikube docker-env)```
 
 2. Create the a `shop` namespace.
-`kubectl create namespace shop`
+
+   ```kubectl create namespace shop```
 
 3. Deploy the Shop application to your Kubernetes cluster.
-`kubectl create --namespace shop -f .`
+
+   ```kubectl create --namespace shop -f .```
 
 4. Check the status. It will take a bit of time for the containers to start the first time and 
 you can check the status with either of these commands:
-`kubectl get pods,service --namespace shop`
-`minikube dashboard`
+
+    ```
+    kubectl get pods,service --namespace shop
+    minikube dashboard
+    ```
 
 5. Once start you can see Shop in action with: 
-'minikube service --namespace shop shop-service'
+
+    ```minikube service --namespace shop shop-service```
 
 A great way to play with the resilience of Kubernetes is once the applicaton
 is running in your browser add some items to your shopping cart. Next, go to 
