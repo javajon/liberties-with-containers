@@ -13,7 +13,7 @@ run anywhere” (PORA).
 | R Shiny           | How a complex statistical ecosystem can be containerized                        |
 | SonarQube         | How SonarQube can be containerized as leveraged for static code analysis        |
 | RabbitMQ          | A quick startup example                                                         |
-| Shop              | An adoption of ?? Shop application                                              |
+| Shop              | A microservices based Shop application                                          |
 | FaaS with Fission | An example of how the functional programming community is leveraging Kubernetes |
 
 ## Where Do I Start? ##
