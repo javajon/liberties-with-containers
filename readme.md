@@ -7,13 +7,13 @@ saturated with “there's an app for that”. For us, we now expect “there's a
 for that”. “Write once, run anywhere” (WORA) has changed to “Package once, 
 run anywhere” (PORA).
 
-| Containers                                                                   |
-| ----------------- | -------------------------------------------------------- |
-| Ping              | A simple ping to get started                             |
-| R Shiny           | How a complex statistical ecosystem can be containerized |
-| SonarQube         | How SonarQube can be containerized as leveraged for static code analysis |
-| RabbitMQ          | A quick startup example                                  |
-| Shop              | An adoption of ?? Shop application                       |
+| Containers        | About                                                                           |
+| ----------------- | ------------------------------------------------------------------------------- |
+| Ping              | A simple ping to get started                                                    |
+| R Shiny           | How a complex statistical ecosystem can be containerized                        |
+| SonarQube         | How SonarQube can be containerized as leveraged for static code analysis        |
+| RabbitMQ          | A quick startup example                                                         |
+| Shop              | An adoption of ?? Shop application                                              |
 | FaaS with Fission | An example of how the functional programming community is leveraging Kubernetes |
 
 ## Where Do I Start? ##
