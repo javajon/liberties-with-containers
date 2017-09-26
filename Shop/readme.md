@@ -32,7 +32,7 @@ you can check the status with either of these commands:
 
 5. Once start you can see Shop in action with: 
 
-    ```minikube service --namespace shop shop```
+    ```minikube service --namespace shop catalog```
 
 A great way to play with the resilience of Kubernetes is once the applicaton
 is running in your browser add some items to your shopping cart. Next, go to 
